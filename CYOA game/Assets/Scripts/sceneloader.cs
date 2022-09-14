@@ -20,4 +20,16 @@ public class sceneloader : MonoBehaviour
     {
         Application.Quit();
     }
+    public void OnPressGoBack()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void OnPressStart()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void OnPressAccept()
+    {
+        SceneManager.LoadScene(4);
+    }
 }

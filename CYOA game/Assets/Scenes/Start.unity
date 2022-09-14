@@ -573,7 +573,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.4745098, g: 0.44132015, b: 0.19215688, a: 0}
+  m_BackGroundColor: {r: 0.07609471, g: 0.3584906, b: 0.09535077, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -621,6 +621,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1175215791 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2967426318435325905, guid: 2da416f8845cd6f4fbbfc1bc7a5c2760, type: 3}
+  m_PrefabInstance: {fileID: 2034960438}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7177008e308d1fa45a9c4050c8dbfcdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1606325544
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,7 +941,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2007429457}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1175215791}
+        m_TargetAssemblyTypeName: sceneloader, Assembly-CSharp
+        m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2007429457
 MonoBehaviour:
   m_ObjectHideFlags: 0
