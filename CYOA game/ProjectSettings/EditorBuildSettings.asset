@@ -32,4 +32,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/stabwin.unity
     guid: b01b8371a1727c4498b24bd6f48d0ba0
+  - enabled: 1
+    path: Assets/Scenes/Princesswin.unity
+    guid: ef3207aca7927c645a4807528fb2573d
+  - enabled: 1
+    path: Assets/Scenes/toweralone.unity
+    guid: f4a48773e42ed354188152742d158d79
+  - enabled: 1
+    path: Assets/Scenes/darkdead.unity
+    guid: 238dd14c5a8e2f244afc14bf36286c2c
+  - enabled: 1
+    path: Assets/Scenes/tower with dark.unity
+    guid: cbb45505d22fd32418caea218ef48bb6
+  - enabled: 1
+    path: Assets/Scenes/Darkknightwin.unity
+    guid: bd1555349199f52478f055c26443dbe4
   m_configObjects: {}
